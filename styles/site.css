@@ -27,3 +27,16 @@ header div:nth-child(2) {
     margin: 0 auto;
     width: 800px;
 }
+
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: lightgrey;
+}
