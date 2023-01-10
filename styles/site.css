@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgrey;
 }
 
 header {
@@ -9,12 +12,15 @@ header {
     background-color: grey;
     color: white;
     border: 2px black solid;
+    border-top-left-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(105, 104, 104);
 }
 
 header img {
     margin: 1rem;
     width: 125px;
     border: 1px black solid;
+    border-radius: 5%;
 }
 
 header h1 {
@@ -32,7 +38,7 @@ header div:nth-child(2) {
 
 a {
     text-decoration: none;
-    color: lightseagreen;
+    color: rgb(34, 171, 164);
 }
 
 a:hover {
@@ -50,4 +56,6 @@ footer {
     border: 2px black solid;
     text-align: center;
     padding: 1rem;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(105, 104, 104);
 }
