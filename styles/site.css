@@ -36,6 +36,10 @@ header div:nth-child(2) {
     width: 800px;
 }
 
+li {
+    padding: 5px 0 5px 0;
+}
+
 a {
     text-decoration: none;
     color: rgb(34, 171, 164);
