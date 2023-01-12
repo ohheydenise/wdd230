@@ -7,6 +7,9 @@
 
     header {
         font-family: 'Padyakke Expanded One', cursive;
-        background-color: orange;
+    }
+
+    main {
+        padding: 10px;
     }
 }
