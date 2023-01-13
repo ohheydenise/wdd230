@@ -13,8 +13,9 @@
     }
 
     main {
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
-            'contrast  alignment'
-            'emphasis   emphasis';
+            "contrast  alignment"
+            "emphasis   emphasis";
     }
 }
