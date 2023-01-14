@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&family=Source+Sans+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,20 +9,26 @@
 html, body {
     margin: 0 auto;
     min-width: 100%;
-    display: grid;
     font-size: 1.25rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
-    background-color: #7BE88D;
-    color: #315C38;
+    background-color: #81878a;
+    color: #484b4d;
     text-align: center;
     padding: 5px;
     width: 100%;
     font-size: 1rem;
 }
 
-main {
+header h3 {
+    padding: 0 0 25px 0;
+}
+
+#main {
+    text-align: center;
+    display: grid;
     margin: 10px 0 0 0;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -36,8 +44,8 @@ p {
 
 .subtitle {
     font-size: 1rem;
-    background-color: #7BE88D;
-    color: #315C38;
+    background-color: #81878a;
+    color: #484b4d;
     text-align: center;
     border-radius: 20px 20px 0 0;
     padding: 10px;
@@ -57,8 +65,8 @@ p {
 
 section {
     margin: 20px 0 0 0;
-    background-color: #87FF9B;
-    color: #315C38;
+    background-color: #9ea5a8;
+    color: #484b4d;
     border-radius: 20px;
 }
 
@@ -67,30 +75,30 @@ section p, a {
 }
 
 img {
-    border: 5px #314C38 solid;
+    border: 5px #484b4d solid;
     padding: 10px;
     width: 100%;
     align-self: center;
 }
 
 a {
-    color: #529C5F;
+    color: #c2cbce;
     text-decoration: none;
 }
 
 a:hover {
-    color: #315C38;
+    color: #626769;
 }
 
 a:active {
-    color: #87FF9B;
+    color: #484b4d;
 }
 
 footer {
     text-align: center;
-    background-color: #7BE88D;
+    background-color: #9ea5a8;
     margin: 10px 0 0 0;
-    color: #315C38;
+    color: #484b4d;
     padding: 10px;
 }
 
