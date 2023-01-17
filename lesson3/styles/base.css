@@ -1,5 +1,6 @@
 html, body {
     margin: 0 auto;
+    padding: 10px;
 }
 
 header {
@@ -8,10 +9,26 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
     text-align: center;
 }
 
 nav ul {
     list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: white;
+}
+
+body {
+    text-align: center;
 }
