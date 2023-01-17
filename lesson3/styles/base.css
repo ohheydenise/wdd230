@@ -1,0 +1,17 @@
+html, body {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
