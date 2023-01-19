@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Padyakke+Expanded+One&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/*
-Color Palette
-- #FFFFF0
-- #F5F5DC
-- #028A0F
-- #443742
-- #846C5B
-
-*/
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0 auto;
-    font-family: 'Barlow', sans-serif;
 }
 
 header {
@@ -26,6 +17,7 @@ header {
     color: #f5f5dc;
     overflow: hidden;
     height: 375px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -37,6 +29,7 @@ nav {
     display: flex;
     text-align: center;
     background-color: #f5f5dc;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul {
@@ -57,7 +50,7 @@ a:hover {
 }
 
 a:active {
-    background-color: darkgrey;
+    background-color: #846C5B;
     color: #fff;
 }
 
@@ -68,6 +61,8 @@ body {
 main {
     padding: 30px 20px 15px 20px;
     background-color: #fffff0;
+    color: #443742;
+    font-family: 'Barlow', sans-serif;
 }
 
 main h2 {
@@ -101,8 +96,66 @@ h5 {
     list-style-type: none;
 }
 
+#design-palette {
+    display: flex;
+    flex-direction: row;
+}
+
+.palette {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+}
+
+#color1 {
+    background-color: #fffff0;
+    color: #443742;
+}
+
+#color2 {
+    background-color: #f5f5dc;
+    color: #443742;
+}
+
+#color3 {
+    background-color: #028a0f;
+    color: #fffff0;
+}
+
+#color4 {
+    background-color: #443742;
+    color: #fffff0;
+}
+
+#color5 {
+    background-color: #846C5B;
+    color: #fffff0;
+}
+
+#palette-description {
+    display: flex;
+    flex-direction: row;
+}
+
+.desc {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    font-size: .75rem;
+    padding: 5px;
+}
+
+.other-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer {
     background-color: #f5f5dc;
     display: block;
     padding: 15px;
+    color: #443742;
+    font-family: 'Montserrat', sans-serif;
 }
