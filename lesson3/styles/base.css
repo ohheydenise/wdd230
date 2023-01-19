@@ -1,34 +1,74 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Padyakke+Expanded+One&family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
     margin: 0 auto;
-    padding: 10px;
+    font-family: 'Barlow', sans-serif;
 }
 
 header {
     text-align: center;
+    padding: 75px 20px;
+    /* background-position: 0 500px;
+    background-image: url('../images/park.jpg'); */
+    background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), no-repeat center url('../images/park.jpg');
+    color: beige;
+    overflow: hidden;
+}
+
+.logo {
+    width: 25%;
+    border-radius: 100%;
 }
 
 nav {
     display: flex;
     text-align: center;
+    background-color: beige;
 }
 
 nav ul {
     list-style-type: none;
+    width: 100%;
 }
 
 a {
-    color: black;
+    color: darkgreen;
     text-decoration: none;
+    display: block;
+    padding: 15px;
 }
 
 a:hover {
+    background-color: lightgrey;
     color: grey;
 }
 
 a:active {
+    background-color: darkgrey;
     color: white;
 }
 
 body {
     text-align: center;
+}
+
+main {
+    padding: 30px 20px 15px 20px;
+    background-color: ivory;
+}
+
+main h2 {
+    padding: 0 0 20px 0;
+}
+
+#audience {
+    text-align: left;
+}
+
+footer {
+    background-color: beige;
+    display: block;
+    padding: 15px;
 }
