@@ -8,9 +8,11 @@
     <title>Commerce Website Plan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
     <header>
+        <img src="./images/logo.png" alt="Logo for Metro City Chamber of Commerce" class="logo">
         <h1>Metro City Chamber of Commerce Plan</h1>
         <h3>Zachary D. Williams</h3>
     </header>
@@ -22,11 +24,18 @@
         </ul>
     </nav>
     <main>
-        <h2>Purpose of the Site</h2>
-        <p>This website will unite the business people of Metro City in a new and exciting way. It will allow them to connect with each other and work together to better the economy and reach the general consumer. It will be responsive and provide useful information that will be used to make life easier.</p>
+        <div id="content">
+            <h2 class="subtitle">Purpose of the Site</h2>
+            <p>This website will unite the business people of Metro City in a new and exciting way. It will allow them to connect with each other and work together to better the economy and reach the general consumer. It will be responsive and provide useful information that will be used to make life easier.</p>
+            <br>
+            <p>There will be a place they can go to easily communicate with one another so they can coordinate efforts. They can also refer customers to each other and offer each other financial support.</p>
+            <br>
+            <p>If you have any questions that you absolutely need answered, don't ask me. I literally can't help you. You can ask Google&copy; though! Woohoo!</p>
+        </div>
     </main>
     <footer>
-
+        <p>&copy;<span id="currentyear"></span> | Zachary D. Williams | Rexburg, ID</p>
+        <p>Last updated: <span id="lastmodified"></span></p>
     </footer>
 </body>
 </html>

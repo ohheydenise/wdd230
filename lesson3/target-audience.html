@@ -8,9 +8,11 @@
     <title>Commerce Website Plan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/base.css">
+    <script src="./scripts/script.js" defer></script>
 </head>
 <body>
     <header>
+        <img src="./images/logo.png" alt="Logo for Metro City Chamber of Commerce" class="logo">
         <h1>Target Audience</h1>
     </header>
     <nav>
@@ -21,10 +23,16 @@
         </ul>
     </nav>
     <main>
-        
+        <h2>With this site, we want to reach...</h2>
+        <ol id="audience">
+            <li>Children (because they have phones too these days)</li>
+            <li>Professional businesses around town</li>
+            <li>And your mom</li>
+        </ol>
     </main>
     <footer>
-
+        <p>&copy;<span id="currentyear"></span> | Zachary D. Williams | Rexburg, ID</p>
+        <p>Last updated: <span id="lastmodified"></span></p>
     </footer>
 </body>
 </html>
