@@ -13,8 +13,9 @@ header {
     /* background-position: 0 500px;
     background-image: url('../images/park.jpg'); */
     background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), no-repeat center url('../images/park.jpg');
-    color: beige;
+    color: #f5f5dc;
     overflow: hidden;
+    height: 375px;
 }
 
 .logo {
@@ -25,7 +26,7 @@ header {
 nav {
     display: flex;
     text-align: center;
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 
 nav ul {
@@ -34,7 +35,7 @@ nav ul {
 }
 
 a {
-    color: darkgreen;
+    color: #028a0f;
     text-decoration: none;
     display: block;
     padding: 15px;
@@ -47,7 +48,7 @@ a:hover {
 
 a:active {
     background-color: darkgrey;
-    color: white;
+    color: #fff;
 }
 
 body {
@@ -56,19 +57,42 @@ body {
 
 main {
     padding: 30px 20px 15px 20px;
-    background-color: ivory;
+    background-color: #fffff0;
 }
 
 main h2 {
     padding: 0 0 20px 0;
 }
 
+#content {
+    margin: 0 0 20px 0;
+}
+
+.home-icon {
+    color: #028a0f;
+    margin: 20px 0;
+}
+
 #audience {
     text-align: left;
+    margin: 10px 0 30px 30px;
+}
+
+section img {
+    border-radius: 100%;
+    width: 200px;
+}
+
+h5 {
+    margin: 15px 0;
+}
+
+.persona-list {
+    list-style-type: none;
 }
 
 footer {
-    background-color: beige;
+    background-color: #f5f5dc;
     display: block;
     padding: 15px;
 }
