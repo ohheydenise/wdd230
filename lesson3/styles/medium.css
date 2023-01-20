@@ -1,10 +1,24 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 592px) {
     header {
         text-align: left;
+        height: 300px;
+        font-size: 0.9rem;
     }
     
     .logo {
         width: 100px;
+    }
+    
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        width: 33.3%;
+    }
+
+    nav a {
+        font-size: 1.1rem;
     }
 
     main p {

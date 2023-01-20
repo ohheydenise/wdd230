@@ -1,3 +1,10 @@
 @media screen and (min-width: 1000px) {
+    header {
+        height: 300px;
+        background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), round fixed url('../images/park.jpg');
+    }
     
+    nav a {
+        font-size: 1.3rem;
+    }
 }
