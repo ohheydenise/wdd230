@@ -48,18 +48,17 @@ nav a {
     padding: 15px;
 }
 
-a:hover {
-    background-color: lightgrey;
-    color: grey;
+nav a:hover {
+    font-weight: bold;
 }
 
-a:active {
+nav a:active {
     background-color: #846C5B;
     color: #fff;
 }
 
 .current {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 body {
