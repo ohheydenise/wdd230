@@ -11,6 +11,7 @@
     
     nav ul {
         flex-direction: row;
+        display: flex;
     }
 
     nav li {
@@ -19,6 +20,14 @@
 
     nav a {
         font-size: 1.1rem;
+    }
+
+    #navbar {
+        display: flex;
+    }
+
+    #hamburger {
+        display: none;
     }
 
     .current {

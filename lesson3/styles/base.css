@@ -57,29 +57,38 @@ nav a:active {
     color: #fff;
 }
 
-/* Hamburger Menu */
+/* HAMBURGER MENU */
+.hamburger {
+    border: none;
+    background-color: #f5f5dc;
+    font-size: 2rem;
+}
 
 #navbar {
     display: none;
+    transform: rotate(0deg);
+    transition: 5s ease-in-out;
 }
 
-#menu-open {
+.menu-open {
     display: none;
+    color: #443742;
 }
 
-#menu-close {
+.menu-close {
     display: inline;
+    color: #443742;
 }
 
 #navbar.menu-active {
     display: flex;
 }
 
-#menu-open.menu-active {
+.menu-open.menu-active {
     display: inline;
 }
 
-#menu-close.menu-active {
+.menu-close.menu-active {
     display: none;
 }
 
