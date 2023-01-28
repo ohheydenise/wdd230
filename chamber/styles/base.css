@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Padyakke+Expanded+One&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
     --back-color1: #f5f5dc;
     --back-color2: #fffff0;
@@ -21,6 +24,7 @@ header {
     text-align: center;
     padding: 15px;
     color: var(--back-color1);
+    font-family: 'Montserrat', sans-serif;
 }
 
 header img {
@@ -33,6 +37,7 @@ nav {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hamburger {
@@ -94,6 +99,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Barlow', sans-serif;
 }
 
 section {
@@ -117,6 +123,7 @@ footer {
     background-color: var(--back-color1);
     padding: 10px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer > * {
