@@ -1,0 +1,135 @@
+:root {
+    --back-color1: #f5f5dc;
+    --back-color2: #fffff0;
+    --text-color1: #025f0b;
+    --text-color2: #443742;
+    --link-color: #846c58;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), no-repeat fixed center top url('../images/park.jpg');
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 15px;
+    color: var(--back-color1);
+}
+
+header img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+nav {
+    background-color: var(--back-color1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger {
+    background-color: var(--back-color1);
+    border: none;
+    font-size: 1.5rem;
+}
+
+.closed {
+    display: inline;
+}
+
+.open {
+    display: none;
+}
+
+.navbar {
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.navbar.menu-active {
+    display: block;
+}
+
+.closed.menu-active {
+    display: none;
+}
+
+.open.menu-active {
+    display: inline;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: block;
+}
+
+.navbar a {
+    color: var(--text-color1);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: var(--back-color2);
+}
+
+#home-content {
+    color: var(--text-color2);
+    background-color: var(--back-color2);
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    min-height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#spotlight {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.spots {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+footer {
+    background-color: var(--back-color1);
+    padding: 10px;
+    text-align: center;
+}
+
+footer > * {
+    margin: 0;
+    color: var(--text-color2);
+}
+
+footer a {
+    padding: 10px;
+    color: var(--text-color1);
+    text-decoration: none;
+}
+
+#sub > * {
+    margin: 0;
+}

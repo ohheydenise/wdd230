@@ -1,0 +1,42 @@
+@media screen and (min-width: 1000px) {
+    header {
+        background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), round fixed center top url('../images/park.jpg');
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navbar li {
+        display: block;
+        width: 25%;
+    }
+
+    #home-content {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 'event   hero   hero   spotlight'
+                             'weather hero   hero   spotlight'
+                             'join    news   news   spotlight';
+    }
+
+    #spotlight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .spots {
+        display: block;
+        flex-basis: 100%;
+    }
+
+    #spot3 {
+        display: block;
+    }
+}

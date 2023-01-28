@@ -1,0 +1,42 @@
+@media screen and (min-width: 600px) {
+    #home-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'hero        hero         hero'
+                             'news        news         news'
+                             'spotlight spotlight spotlight'
+                             'join        join         join'
+                             'event      event      weather';
+    }
+
+    #hero {
+        grid-area: hero;
+    }
+
+    #event {
+        grid-area: event;
+    }
+
+    #weather {
+        grid-area: weather;
+    }
+
+    #news {
+        grid-area: news;
+    }
+
+    #spotlight {
+        grid-area: spotlight;
+        flex-direction: row;
+    }
+
+    #spotlight > * {
+        width: 50%;
+    }
+
+    #join {
+        grid-area: join;
+        display: block;
+        text-align: center;
+    }
+}
