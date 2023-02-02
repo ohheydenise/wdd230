@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px) {
     header {
-        background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), round fixed center top url('../images/park.jpg');
+        background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), round fixed left bottom url('../images/livermore.jfif');
     }
     
     .hamburger {
@@ -33,7 +33,7 @@
 
     .spots {
         display: block;
-        flex-basis: 100%;
+        width: auto;
     }
 
     #spot3 {

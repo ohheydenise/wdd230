@@ -19,7 +19,7 @@ body {
 
 header {
     margin: 0 auto;
-    background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), no-repeat fixed center top url('../images/park.jpg');
+    background: linear-gradient(to top, rgba(97, 64, 34, 0.5), rgba(230, 230, 230, 0.6)), no-repeat fixed center bottom url('../images/livermore.jfif');
     font-size: 0.85rem;
     text-align: center;
     padding: 15px;
